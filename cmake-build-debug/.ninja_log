@@ -1,0 +1,21 @@
+# ninja log v5
+7	2148	1698080208956885675	lib/MinSocket/src/CMakeFiles/MinimalSocket.dir/src/tcp/TcpClient.cpp.o	f84a54dfa3f7721c
+4	1912	1698080208723557453	lib/MinSocket/src/CMakeFiles/MinimalSocket.dir/src/SocketId.cpp.o	6fbeb42575457d7
+4	2410	1698080209220213240	lib/MinSocket/src/CMakeFiles/MinimalSocket.dir/src/Utils.cpp.o	ac420d8052b451c1
+7	2264	1698080209073549786	lib/MinSocket/src/CMakeFiles/MinimalSocket.dir/src/tcp/TcpServer.cpp.o	5e59ee203db21073
+3	72	1698080206883597760	CMakeFiles/NUOSTest.dir/src/Util/StringUtils.cpp.o	d475bf2ce28717f
+5	2065	1698080208876887427	lib/MinSocket/src/CMakeFiles/MinimalSocket.dir/src/SocketFunctions.cpp.o	841ebaa8736fab9f
+5	2117	1698080208926886332	lib/MinSocket/src/CMakeFiles/MinimalSocket.dir/src/core/Address.cpp.o	27f6a2edc9af7574
+2	408	1698080207220257052	CMakeFiles/NUOSTest.dir/src/Server/Route.cpp.o	62bf102882fbffd
+7	1316	1698080208123570597	lib/MinSocket/src/CMakeFiles/MinimalSocket.dir/src/core/SocketContext.cpp.o	581a5dec1f72a814
+4	1841	1698080208653558987	lib/MinSocket/src/CMakeFiles/MinimalSocket.dir/src/SocketAddress.cpp.o	69ed6236f08a6ab2
+6	2086	1698080208896886989	lib/MinSocket/src/CMakeFiles/MinimalSocket.dir/src/core/Socket.cpp.o	4eabdab75fffe0d4
+3	1913	1698080208723557453	lib/MinSocket/src/CMakeFiles/MinimalSocket.dir/src/Error.cpp.o	e2be5d43e1bfe367
+5	1762	1698080208573560739	lib/MinSocket/src/CMakeFiles/MinimalSocket.dir/src/core/Definitions.cpp.o	e19d8c2c0f5cd1f8
+888	1000	1698080268718909816	NUOSTest	6c295fce7e5e5000
+6	2322	1698080209133548472	lib/MinSocket/src/CMakeFiles/MinimalSocket.dir/src/core/Receiver.cpp.o	31029b905e07d774
+7	2761	1698080209570205572	lib/MinSocket/src/CMakeFiles/MinimalSocket.dir/src/udp/UdpSocket.cpp.o	1c2c8fa174526664
+2	888	1698080268605578966	CMakeFiles/NUOSTest.dir/src/main.cpp.o	dff3da56ae536c8
+6	2467	1698080209276878665	lib/MinSocket/src/CMakeFiles/MinimalSocket.dir/src/core/Sender.cpp.o	e47dab3afb17ecac
+1	34	1698080242809477406	CMakeFiles/NUOSTest.dir/src/Server/RequestParser.cpp.o	eef9967a3e86943a
+2	44	1698080215963398849	lib/MinSocket/src/libMinimalSocket.a	d16988a2179cd6bc

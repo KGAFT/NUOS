@@ -1,0 +1,92 @@
+{
+	"backtrace" : 2,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target",
+			"MakeSample",
+			"add_dependencies"
+		],
+		"files" : 
+		[
+			"lib/MinSocket/samples/cmake/MakeSample.cmake",
+			"lib/MinSocket/samples/udp/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 4,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 23,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 5,
+				"parent" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 3,
+			"id" : "UdpAsker::@11563367ea96b5d93050"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "UdpResponder::@11563367ea96b5d93050"
+		}
+	],
+	"id" : "UdpSample01_asker_responder::@11563367ea96b5d93050",
+	"name" : "UdpSample01_asker_responder",
+	"paths" : 
+	{
+		"build" : "lib/MinSocket/samples/udp",
+		"source" : "lib/MinSocket/samples/udp"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/lib/MinSocket/samples/udp/CMakeFiles/UdpSample01_asker_responder",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/lib/MinSocket/samples/udp/CMakeFiles/UdpSample01_asker_responder.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

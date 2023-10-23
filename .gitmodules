@@ -1,0 +1,3 @@
+[submodule "lib/MinSocket"]
+	path = lib/MinSocket
+	url = https://github.com/andreacasalino/Minimal-Socket

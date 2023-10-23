@@ -1,0 +1,296 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "lib/MinSocket",
+					"childIndexes" : 
+					[
+						2,
+						3
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-lib.MinSocket-Debug-e263d5467d996a1eaeb5.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "lib/MinSocket"
+				},
+				{
+					"build" : "lib/MinSocket/src",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-lib.MinSocket.src-Debug-1c55aa0b026125787519.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "lib/MinSocket/src",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "lib/MinSocket/samples",
+					"childIndexes" : 
+					[
+						4,
+						5,
+						6
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-lib.MinSocket.samples-Debug-3382a68cf4dc28eb2733.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "lib/MinSocket/samples"
+				},
+				{
+					"build" : "lib/MinSocket/samples/utils",
+					"jsonFile" : "directory-lib.MinSocket.samples.utils-Debug-ae1fa2ac61d634298206.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 1,
+					"source" : "lib/MinSocket/samples/utils",
+					"targetIndexes" : 
+					[
+						13
+					]
+				},
+				{
+					"build" : "lib/MinSocket/samples/tcp",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-lib.MinSocket.samples.tcp-Debug-6da315b37258dd15d396.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 1,
+					"source" : "lib/MinSocket/samples/tcp",
+					"targetIndexes" : 
+					[
+						2,
+						3,
+						4,
+						5,
+						6,
+						7
+					]
+				},
+				{
+					"build" : "lib/MinSocket/samples/udp",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-lib.MinSocket.samples.udp-Debug-7f3ad3051ed4aba5111d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 1,
+					"source" : "lib/MinSocket/samples/udp",
+					"targetIndexes" : 
+					[
+						8,
+						9,
+						10,
+						11,
+						12
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "NUOS",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5,
+						6
+					],
+					"name" : "MinimalCppSocket",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 2,
+					"id" : "MinimalSocket::@d0f4ae0e204c7f230843",
+					"jsonFile" : "target-MinimalSocket-Debug-1c6fd457a981605a67fc.json",
+					"name" : "MinimalSocket",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "NUOSTest::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-NUOSTest-Debug-802d3afbeabaa7e3e55c.json",
+					"name" : "NUOSTest",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "TcpClient::@2089626a148be332aa09",
+					"jsonFile" : "target-TcpClient-Debug-8aa2bb0006cac3d84270.json",
+					"name" : "TcpClient",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "TcpRepeater::@2089626a148be332aa09",
+					"jsonFile" : "target-TcpRepeater-Debug-8a48eec1c967937765bc.json",
+					"name" : "TcpRepeater",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "TcpSample01_server_client::@2089626a148be332aa09",
+					"jsonFile" : "target-TcpSample01_server_client-Debug-d2857c0161082a83f83f.json",
+					"name" : "TcpSample01_server_client",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "TcpSample02_server_2_clients::@2089626a148be332aa09",
+					"jsonFile" : "target-TcpSample02_server_2_clients-Debug-05bb1f5af7ac89ee8040.json",
+					"name" : "TcpSample02_server_2_clients",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "TcpSample03_chain_with_2_repeaters::@2089626a148be332aa09",
+					"jsonFile" : "target-TcpSample03_chain_with_2_repeaters-Debug-6ede0e8abe1bb10d6613.json",
+					"name" : "TcpSample03_chain_with_2_repeaters",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "TcpServer::@2089626a148be332aa09",
+					"jsonFile" : "target-TcpServer-Debug-7bebfc22d862800e0f03.json",
+					"name" : "TcpServer",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "UdpAsker::@11563367ea96b5d93050",
+					"jsonFile" : "target-UdpAsker-Debug-df6062d1255cc0e73833.json",
+					"name" : "UdpAsker",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "UdpResponder::@11563367ea96b5d93050",
+					"jsonFile" : "target-UdpResponder-Debug-8aab68d7264be27ea59e.json",
+					"name" : "UdpResponder",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "UdpSample01_asker_responder::@11563367ea96b5d93050",
+					"jsonFile" : "target-UdpSample01_asker_responder-Debug-cc31287c6d4c4f007b84.json",
+					"name" : "UdpSample01_asker_responder",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "UdpSample02_asker_connected_responer::@11563367ea96b5d93050",
+					"jsonFile" : "target-UdpSample02_asker_connected_responer-Debug-10cf70d9e5b3ef131eae.json",
+					"name" : "UdpSample02_asker_connected_responer",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "UdpSample03_2_askers_responder::@11563367ea96b5d93050",
+					"jsonFile" : "target-UdpSample03_2_askers_responder-Debug-37b9ea95109d6787bc66.json",
+					"name" : "UdpSample03_2_askers_responder",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "Utils::@4381e80fbbcf333cfa33",
+					"jsonFile" : "target-Utils-Debug-935422e823edc88e884a.json",
+					"name" : "Utils",
+					"projectIndex" : 1
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/kgaft/Documents/NUOS/cmake-build-debug",
+		"source" : "/home/kgaft/Documents/NUOS"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 5
+	}
+}

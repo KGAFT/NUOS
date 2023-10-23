@@ -1,0 +1,77 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"MakeApp"
+		],
+		"files" : 
+		[
+			"lib/MinSocket/samples/cmake/MakeSample.cmake",
+			"lib/MinSocket/samples/udp/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 1,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 11,
+				"parent" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 2,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 11,
+				"parent" : 3
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"lib/MinSocket/samples/udp/UdpAsker"
+			],
+			"targetId" : "UdpAsker::@11563367ea96b5d93050",
+			"targetIndex" : 8,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 4,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"lib/MinSocket/samples/udp/UdpResponder"
+			],
+			"targetId" : "UdpResponder::@11563367ea96b5d93050",
+			"targetIndex" : 9,
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "lib/MinSocket/samples/udp",
+		"source" : "lib/MinSocket/samples/udp"
+	}
+}
