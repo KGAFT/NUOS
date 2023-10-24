@@ -11,17 +11,17 @@ enum NUParamType{
     NU_BLOB_TYPE
 };
 
-template <typename T> class Param {
+class Param {
 public:
-    Param(NUParamType paramType, T data, const std::string &paramName) : paramType(paramType), data(data),
+    Param(NUParamType paramType, void* data, const std::string &paramName) : paramType(paramType), data(data),
                                                                          paramName(paramName) {}
 
 private:
     NUParamType paramType;
-    T data;
+    void* data;
     std::string paramName;
 public:
-    T getData() {
+    void* getData() {
         return data;
     }
 
@@ -31,5 +31,8 @@ public:
 
     std::string &getParamName()  {
         return paramName;
+    }
+    ~Param(){
+        free(data);
     }
 };

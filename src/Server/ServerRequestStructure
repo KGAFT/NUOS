@@ -1,0 +1,15 @@
+first line:
+    [requestId][route]
+    EXAMPLE:
+    1/testRoute/testPage
+other lines:
+    params
+    EXAMPLE:
+    [param]\n[param]\n[param]...
+param:
+    first char: data type
+    second char - char with value ' ': paramName
+    next char after char with value ' ': binaryData
+    [enum][paramName] [binaryData]
+    EXAMPLE:
+    0TestParam 852368230573280572805738205

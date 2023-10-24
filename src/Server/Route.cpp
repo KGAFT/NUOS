@@ -16,3 +16,13 @@ bool Route::compare(char *src) {
 bool Route::isIn(char *src) {
     return StringUtils::contains(src, const_cast<char *>(routeBase.c_str()));
 }
+
+Route::Route() {}
+
+const std::string &Route::getRouteBase() const {
+    return routeBase;
+}
+
+void Route::setRouteBase(const std::string &routeBase) {
+    Route::routeBase = routeBase;
+}
